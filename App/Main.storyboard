@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="8552e564-e56a-4e6f-a5e7-db2689e6f8e0">
+<device id="retina4_7" orientation="portrait">
+<adaptation id="fullscreen"/>
+</device>
+<dependencies>
+<deployment identifier="iOS"/>
+<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+<capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+</dependencies>
+<scenes>
+<!--View Controller-->
+<scene sceneID="8552e564-e56a-4e6f-a5e7-db2689e6f8e0-scene">
+<objects>
+<viewController id="8552e564-e56a-4e6f-a5e7-db2689e6f8e0" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="8552e564-e56a-4e6f-a5e7-db2689e6f8e0-top"/>
+<viewControllerLayoutGuide type="bottom" id="8552e564-e56a-4e6f-a5e7-db2689e6f8e0-bottom"/>
+</layoutGuides>
+<view key="view" contentMode="scaleAspectFit" id="view-8552e564-e56a-4e6f-a5e7-db2689e6f8e0">
+<rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<subviews>
+<button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" customClass="YTButton" customModuleProvider="target"  contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="wordWrap" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59de0575-91eb-4cdd-80a7-f43df5eda84a">
+<rect key="frame" x="94" y="151" width="188" height="49"/>
+<autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="14"/>
+<state key="normal" title="LET’S GO">
+<color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</state>
+<color key="backgroundColor" red="0" green="0.5333333333333333" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<userDefinedRuntimeAttributes>
+<userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+<real key="value" value="5"/>
+</userDefinedRuntimeAttribute>
+</userDefinedRuntimeAttributes>
+    </button>
+
+</subviews>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<extendedEdge key="edgesForExtendedLayout"/>
+<nil key="simulatedTopBarMetrics"/>
+<nil key="simulatedBottomBarMetrics"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="placeholderId-8552e564-e56a-4e6f-a5e7-db2689e6f8e0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+</scene>
+</scenes>
+</document>
